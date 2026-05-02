@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Violations | Intellectual Property Protection Platform</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="nav-container">
+        <div class="brand">
+          <img src="assets/logo.png" alt="Logo" />
+          <span>Intellectual Property Protection Platform</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="upload.html">Upload</a>
+          <a href="verify.html">Verify</a>
+          <a href="dashboard.html">Dashboard</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page">
+      <h2 style="margin-bottom: 20px; color: #1e40af">
+        Intellectual Property Violation Alerts
+      </h2>
+
+      <button id="clearBtn" style="margin-bottom: 18px">Clear Alerts</button>
+
+      <table id="violationTable">
+        <thead>
+          <tr>
+            <th>Original File</th>
+            <th>Matched Source</th>
+            <th>Similarity</th>
+            <th>Date</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <footer>
+      © 2026 Intellectual Property Protection Platform. All rights reserved.
+    </footer>
+
+    <script src="js/alerts.js"></script>
+  </body>
+</html>

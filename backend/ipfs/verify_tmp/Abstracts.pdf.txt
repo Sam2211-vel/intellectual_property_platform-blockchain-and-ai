@@ -1,0 +1,33 @@
+Abstracts
+Personal Health Twin (Blockchain + ML) — Abstract
+We propose Personal Health Twin, a privacy-preserving, scalable digital replica of an individual’s
+longitudinal health profile that combines machine learning with blockchain-enabled provenance. The
+system ingests multi-modal personal data (wearables, EHR snapshots, genomic metadata, lifestyle
+and environmental sensors) to construct a dynamic, individualized health twin that models
+physiological baselines and predicts short- and long-term health trajectories. Lightweight, on-device
+models provide continuous personalization and local inference while federated learning aggregates
+improvements across users without sharing raw data. A permissioned blockchain records tamper-
+evident provenance for model updates, consent transactions, and data-access events—ensuring
+auditability, fine-grained consent, and verifiable lineage for clinical and research use. The platform
+offers explainable outputs (counterfactuals and feature attributions) to support actionable
+recommendations for prevention, early-warning detection of anomalies, and personalized
+intervention scheduling. We evaluate the approach on synthetic and real-world dataset slices for
+tasks such as early detection of cardio-metabolic risk and medication-adherence forecasting,
+demonstrating improvements in predictive accuracy, robustness to distribution shift, and user-level
+privacy compared with centralized baselines. The architecture balances clinical utility, regulatory
+compliance, and user agency—positioning the Personal Health Twin as a practical bridge between
+continuous consumer sensing and clinically trustworthy decision support.
+Title:
+AI-Powered E-Waste Image Classification System Using EfficientNetV2B0 with Gradio and Virtual
+Reality Integration
+Abstract:
+This project introduces an AI-driven E-Waste Image Classification System that leverages
+EfficientNetV2B0 (Transfer Learning) to accurately identify and classify e-waste items such as mobile
+phones, PCBs, batteries, and keyboards, achieving over 90% validation accuracy. The system is
+enhanced with Gradio, OpenCV, and MediaPipe for multi-modal user interaction through typing,
+image upload, webcam, IP webcam, and VR gesture control modes, ensuring accessibility and real-
+time performance. It also integrates cost estimation, recycling recommendations, and dynamic
+dashboards with Google Maps links to nearby recycling centers, promoting eco-friendly practices.
+Developed using Python, TensorFlow/Keras, Gradio, OpenCV, and MediaPipe, this project bridges
+deep learning and sustainable technology, showcasing how artificial intelligence can drive green
+innovation and support smart city sustainability initiatives.

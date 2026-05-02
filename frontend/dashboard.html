@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard | Intellectual Property Protection Platform</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="nav-container">
+        <div class="brand">
+          <img src="assets/logo.png" alt="Logo" />
+          <span>Intellectual Property Protection Platform</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="upload.html">Upload</a>
+          <a href="verify.html">Verify</a>
+          <a href="violations.html" class="nav-btn">Violations</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page">
+      <h2 style="margin-bottom: 20px; color: #1e40af">
+        Registered Intellectual Property Assets
+      </h2>
+
+      <table id="assetTable">
+        <thead>
+          <tr>
+            <th>File Name</th>
+            <th>Owner</th>
+            <th>Hash</th>
+            <th>IPFS CID</th>
+            <th>Blockchain Tx</th>
+            <th>Timestamp</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <footer>
+      © 2026 Intellectual Property Protection Platform. All rights reserved.
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
